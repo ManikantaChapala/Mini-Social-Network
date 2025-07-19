@@ -46,11 +46,11 @@ A *mini social networking platform* focusing on *relationship management and con
 
 ## 📦 Installation
 
-### 1️⃣ Clone the Repository
-
 ```bash
+1️⃣ Clone the Repository
 git clone https://github.com/ManikantaChapala/Mini-Social-Network.git
 cd Mini-Social-Network
+
 2️⃣ Backend Setup
 cd backend
 npm install
