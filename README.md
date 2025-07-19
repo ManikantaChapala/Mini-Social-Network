@@ -52,44 +52,24 @@ A *mini social networking platform* focusing on *relationship management and con
 git clone https://github.com/ManikantaChapala/Mini-Social-Network.git
 cd Mini-Social-Network
 2️⃣ Backend Setup
-bash
-Copy
-Edit
 cd backend
 npm install
-Create a .env file inside the backend folder:
 
-ini
-Copy
-Edit
+Create a .env file inside the backend folder:
+//blueprint of the dotenv file
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+
+
 Run the backend server:
-
-bash
-Copy
-Edit
 npm start
+
 3️⃣ Frontend Setup
-Open a new terminal, then:
-
-bash
-Copy
-Edit
-cd frontend
+Open a new terminal, and run the commands:
 npm install
-Run the React development server:
-
-bash
-Copy
-Edit
 npm start
 The frontend will be available at:
-
-arduino
-Copy
-Edit
 http://localhost:3000
 🚀 Usage
 Register and log in.
