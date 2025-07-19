@@ -46,6 +46,7 @@ function Profile({ user, onLogout }) {
         profileData = user;
         setProfile(user);
         setEditForm({
+          
           bio: user?.profile?.bio || '',
           location: user?.profile?.location || ''
         });
