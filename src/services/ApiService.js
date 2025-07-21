@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://msmbackend.onrender.com/api';
+const API_BASE_URL = '/api';
 
 class ApiService {
   // Posts

@@ -1,6 +1,6 @@
   import axios from 'axios';
 
-  const API_BASE_URL = 'https://msmbackend.onrender.com/api';
+  const API_BASE_URL = '/api'; 
 
   // Set up axios interceptor for auth token
   axios.interceptors.request.use(
